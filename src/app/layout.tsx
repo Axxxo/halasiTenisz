@@ -41,6 +41,11 @@ const bookingNavItems = [
 export const metadata: Metadata = {
   title: "Halasi Tenisz Klub",
   description: "Halasi Tenisz Klub hivatalos oldala és pályafoglalási felülete.",
+  icons: {
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
+  },
 };
 
 export default async function RootLayout({
