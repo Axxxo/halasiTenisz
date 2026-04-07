@@ -185,7 +185,17 @@ export default async function RootLayout({
         <main>{children}</main>
         <footer className="mt-12 border-t border-border bg-surface">
           <div className="shell-container py-6 text-sm text-foreground/70">
-            © {new Date().getFullYear()} Halasi Tenisz Klub · Minden jog fenntartva.
+            © {new Date().getFullYear()} Halasi Tenisz Klub · Minden jog fenntartva. A rendszert
+            tervezte és fejlesztette az{" "}
+            <a
+              href="https://akoskovax.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-semibold text-foreground hover:text-primary"
+            >
+              akoskovax.com
+            </a>
+            .
           </div>
         </footer>
       </body>
